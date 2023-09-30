@@ -1,0 +1,56 @@
+.tile{
+  width:300px;
+  height:480px;
+  z-index:5;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  
+}
+
+.tile:hover{
+  border: 2px solid black;
+}
+
+.tile img{
+
+  position: relative;
+  width:  inherit;
+  height: 300px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.tile h2, h4{
+  font-style: oblique;
+  font-weight: bold;
+}
+
+
+.tile button{
+  border-radius: 10px;
+  background-color: white;
+  float: center;
+  width: 100px;
+  height: 30px;
+}
+
+.tile button:hover{
+  background-color: grey;
+}
+
+.titleLayout{
+  align-items: center;
+}
+
+.tileHeading{
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+  height:200px;
+}
+
+body{
+    background-image: url('./assets/NutrientManagement_600x366_1.jpg');
+    background-size:cover;
+}
