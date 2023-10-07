@@ -8,7 +8,7 @@
   }
   
   .card.flipped {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
   
   .card-inner-front {
@@ -43,25 +43,63 @@
     border-radius: 20px;
     border: 1px solid black;
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   } 
   
- button{
+ .prevNext {
   width: 60px;
   height: 30px;
-  border: 1px solid black;
-  border-radius: 0.5em;
-  z-index: 2;
-  background-color: white;
  } 
 
  button img{
-  width: 40px;
-  height: 20px;
+  width: 30px;
+  height: 10px;
   position: inherit;
   background-color: inherit;
  }
 
  button:hover{
-  border: 3px solid black;;
+  border: 3px solid black;
  }
+
+ button {
+  border: 1px solid black;
+  border-radius: 0.5em;
+  z-index: 2;
+  background-color: white;
+ }
+ .shuffle {
+  width: 150px;
+  height: 30px;
+ }
+ 
+ .submit {
+  width: 120px;
+  height: 20px;
+ }
+
+ .countHeader{
+  margin-top: -40px;
+ }
+ 
+ .textBox:hover{
+  border: 3px solid black;
+ }
+ 
+ .textBox {
+  border-color: 1px solid black;
+}
+
+/* Style for a correct answer */
+.textBox.Correct {
+  border-color: green;
+}
+
+/* Style for an incorrect answer */
+.textBox.Incorrect {
+  border-color: red;
+}
+
+.textBox.Incorrect {
+  border-color: 1px solid black;
+}
