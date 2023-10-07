@@ -1,10 +1,10 @@
-# WEB102 Project 2 - Flashcards! Part 1
+# WEB102 Project 2 - Flashcards! 
 
 Submitted by: Ashwani Balakrishnan Neminimadathil
 
-A web application for flashcards which is an Ultimate Guide for Sustainable Agriculture.
+The Ultimate Guide for Sustainable Agriculture is a web application for Flashcards. The user can choose pairs of items to store in a flashcard-like format to study, learn something new, or play a guessing game. Users will be able to study cards in a randomized order as well.
 
-Time spent: 5 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -15,11 +15,17 @@ The following **required** functionality is completed:
 * [ ] Create a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
 * [ ] Clicking on the card shows the corresponding component of the information pair.
 * [ ] Clicking the next button displays a random new card.
+* [ ] User can enter their guess in a box before seeing the flipside of the card.
+* [ ] Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect.
+* [ ] A back button displayed on the card can be used to return to the previous card in a set sequence.
+* [ ] A next button displayed on the card can be used to navigate to the next card in a set sequence
+* [ ] A shuffle button can be used to randomize the order of the cards.
+* [ ] A counter displays the user’s current and longest streak of correct responses
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://github.com/ashwani89n/flashCard/blob/main/Ashwani_FlashCard_1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ashwani89n/flashCard/blob/main/Ashwani_FlashCard_2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Licecap Tool
 
